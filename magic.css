@@ -1,0 +1,251 @@
+
+body{
+background-color: #ff8333;
+}
+
+ul {
+list-style-type: none;
+margin: 5;
+padding: 5px 0px 0px 90px;
+overflow: hidden;
+background-color: #1a1a1a;
+}
+
+li {
+float: left;}
+
+li a {
+display: block;
+color: white;
+padding: 16px 18px;
+text-align: center;
+text-decoration: none;}
+
+li a:hover {
+background-color: #000000;}
+
+h1{
+text-align:center}
+
+img.medium{
+width: 178px;
+height: 248px;}
+
+img.large{
+width:1200;
+height:500;}
+
+
+img.align-right{
+float:right;
+padding: 100px;}
+
+
+img.align-center{
+text-align: center;
+padding: 65px;}
+
+img.align-centered{
+text-align: center;
+padding: 25px 100px 25px 420px;
+}
+
+p{
+font-weight: bold;
+font-size: 150%}
+
+p1{ font-size: 100%}
+
+p3
+{
+text-align: center;
+padding: 25px 100px 25px 0px;
+}
+
+#first {
+width: 350px;
+float: left;
+padding: 10px 30px;}
+
+#second {
+width: 350px; 
+float: left;
+padding: 10px 30px;
+margin: 0px 5px 5px 0px;}
+
+#third {
+width: 350px;
+padding: 1px 60px;
+float: left;}
+
+label
+{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 10px;
+}
+input
+{
+	display: block;
+	margin-bottom:1em;
+}
+textarea
+{
+	display:block;
+	margin-bottom:1em;
+	
+}
+#mySubmit
+{
+	margin-left:10em;
+}
+
+footer {
+clear: both;
+padding: 0 15px;}
+
+#mobile
+{
+	display:none;	
+}
+#desktop
+{
+	display:inline;
+}
+@media only screen and (max-width:1024px)
+{
+
+	body
+	{
+		padding: 0px;
+		background-color: #FFFFFF
+		background-image:none;
+	}
+	#wrapper
+	{
+		width:auto;
+		min-width:0px;
+		margin:0px;
+	}
+	img.align-centered
+	{
+		padding:1em;
+		border-style:none;
+		font-size:1.2em;
+		float:none;
+		width:auto
+	}
+	h1
+	{
+		margin:0px;
+		text-align:center;
+		font-size:2em;
+		line-height:200%;
+	}
+	nav
+	{
+		float:none;
+		width:auto;
+	}
+	nav li
+	{
+		display:inline;
+	}
+	nav a
+	{
+		padding:1em;
+		border-style:none;
+		font-size:1.2em;
+	}
+	nav ul
+	{
+		text-align:center;
+		padding:0px;
+		margin:0px;
+	}
+	main
+	{
+		margin:0px;
+		padding-top:0px;
+		padding-bottom:0px;
+		padding-left:1em;
+		padding-right:1em;
+		font-size:90%;
+	}
+	dd
+	{
+		margin-bottom:1em;
+	}
+	footer
+	{
+		margin:0px;
+	}
+}
+
+@media only screen and (max-width:768px)
+{
+	header
+	{
+		background-image:url(lilfish.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	img.align-centered
+	{
+		padding:1em;
+		border-style:none;
+		font-size:1.2em;
+		float:none;
+		width:auto
+	}	
+	h1
+	{
+		font-size:1.5em;
+		line-height:120%;
+	}
+	nav a
+	{
+		display:block;
+		padding:0.2em;
+		font-size:1.3em;
+		border-bottom:1px;
+		border-bottom-color:#330000;
+	}
+	nav li
+	{
+		display:block;
+	}
+	nav ul
+	{
+		text-align:left;
+	}
+	main
+	{
+		padding-left:0.4em;
+	}
+	.category
+	{
+		text-shadow:none;
+	}
+	footer
+	{
+		padding:0px;
+	}
+	#mobile
+	{
+		display:inline;
+	}
+	#desktop
+	{
+		display:none;
+	}
+	
+}
+
+
+
+
+
+
